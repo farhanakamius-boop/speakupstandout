@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ms">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#063b5c" />
+    <title>Speak Up! Stand Out! | Kolej Komuniti Papar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Terus ke kandungan</a>
+    <header class="topbar">
+      <button class="menu-button" aria-expanded="false" aria-controls="site-nav" type="button">☰ <span>Menu</span></button>
+      <a class="brand" href="#home" aria-label="Speak Up Stand Out, halaman utama"><span class="brand-mark">SU</span><span>Speak Up!<b>Stand Out!</b></span></a>
+      <div class="progress-wrap" aria-label="Kemajuan pembelajaran"><span id="progress-label">0% lengkap</span><div class="progress-track"><span id="progress-bar"></span></div></div>
+    </header>
+
+    <div class="app-shell">
+      <nav id="site-nav" class="side-nav" aria-label="Navigasi pembelajaran">
+        <p class="nav-title">Kursus Anda</p>
+        <a href="#home" class="nav-link active" data-view="home"><span>⌂</span> Mula di sini</a>
+        <a href="#module-1" class="nav-link" data-view="module-1"><span>01</span> Mesej yang jelas</a>
+        <a href="#module-2" class="nav-link" data-view="module-2"><span>02</span> Berani bersuara</a>
+        <a href="#module-3" class="nav-link" data-view="module-3"><span>03</span> Pitch & pembentangan</a>
+        <a href="#module-4" class="nav-link" data-view="module-4"><span>04</span> Kerja dalam pasukan</a>
+        <a href="#practice" class="nav-link" data-view="practice"><span>★</span> Aktiviti fizikal</a>
+        <a href="#challenge" class="nav-link" data-view="challenge"><span>✓</span> Cabaran akhir</a>
+        <div class="nav-tip"><strong>Tip:</strong> Setiap topik pendek. Cuba, bincang, kemudian tandakan selesai.</div>
+      </nav>
+
+      <main id="main" tabindex="-1">
+        <section id="home" class="view active-view">
+          <div class="hero">
+            <div>
+              <p class="eyebrow">KOLEJ KOMUNITI PAPAR</p>
+              <h1>Berkomunikasi dengan <em>jelas</em>, yakin dan profesional.</h1>
+              <p class="lead">Belajar cara menyampaikan idea, bertanya dengan baik, menyuarakan pendapat dan bekerjasama - kemahiran yang berguna semasa belajar, latihan industri dan kerja nanti.</p>
+              <div class="hero-actions"><button class="primary" data-go="module-1">Mula belajar <span>→</span></button><button class="secondary" data-go="practice">Lihat aktiviti</button></div>
+            </div>
+            <div class="hero-card" aria-label="Empat kemahiran utama">
+              <span class="mini-label">4 KEMAHIRAN UTAMA</span>
+              <ol>
+                <li><b>01</b> Cakap dengan jelas</li>
+                <li><b>02</b> Bersikap asertif</li>
+                <li><b>03</b> Bina keyakinan</li>
+                <li><b>04</b> Urus konflik</li>
+              </ol>
+              <p>Anda tidak perlu bercakap kuat untuk didengari. Anda perlu bercakap dengan tujuan.</p>
+            </div>
+          </div>
+          <div class="section-heading"><p class="eyebrow">PETA PEMBELAJARAN</p><h2>Ikut perjalanan ini, satu kemahiran pada satu masa.</h2></div>
+          <div class="path-grid">
+            <button class="path-card teal" data-go="module-1"><span>01</span><b>Mesej yang jelas</b><small>Jawapan dahulu, penerangan kemudian.</small></button>
+            <button class="path-card pink" data-go="module-2"><span>02</span><b>Berani bersuara</b><small>Tegas tanpa kasar.</small></button>
+            <button class="path-card blue" data-go="module-3"><span>03</span><b>Pitch & pembentangan</b><small>Bercakap dengan yakin.</small></button>
+            <button class="path-card gold" data-go="module-4"><span>04</span><b>Kerja dalam pasukan</b><small>Maklum balas dan penyelesaian.</small></button>
+          </div>
+        </section>
+
+        <section id="module-1" class="view">
+          <div class="module-banner teal-bg"><p class="eyebrow">MODUL 01</p><h1>Mesej yang jelas membantu orang bertindak.</h1><p>Dalam kelas atau kerja, orang sibuk. Beritahu perkara utama dahulu.</p></div>
+          <div class="content-grid">
+            <article class="content-card"><p class="card-kicker">IDEA UTAMA</p><h2>Gunakan struktur “Point - Why - Next”</h2><div class="steps"><div><b>1</b><span><strong>Point</strong> - Apa cadangan atau jawapan anda?</span></div><div><b>2</b><span><strong>Why</strong> - Mengapa perkara ini penting?</span></div><div><b>3</b><span><strong>Next</strong> - Apakah tindakan seterusnya?</span></div></div></article>
+            <aside class="example"><p class="card-kicker">CONTOH</p><h3>“Saya cadangkan kita siapkan poster hari ini supaya semakan pensyarah boleh dibuat esok. Saya akan sediakan draf sebelum jam 4 petang.”</h3><p>Ringkas, jelas, dan ada tindakan.</p></aside>
+          </div>
+          <article class="reflection"><div><p class="card-kicker">CUBA SEKARANG</p><h2>Ubah ayat yang panjang menjadi 2 ayat.</h2><p>Pilih satu tugasan kelas atau projek anda. Tulis mesej menggunakan Point - Why - Next.</p></div><textarea id="clear-message" placeholder="Tulis mesej anda di sini..." aria-label="Ruang menulis mesej jelas"></textarea><button class="primary save-note" data-note="clear-message">Simpan nota</button></article>
+          <button class="complete-button" data-complete="module-1">✓ Saya faham cara membina mesej jelas</button>
+        </section>
+
+        <section id="module-2" class="view">
+          <div class="module-banner pink-bg"><p class="eyebrow">MODUL 02</p><h1>Berani bersuara tidak sama dengan bersikap kasar.</h1><p>Asertif bermaksud menghormati diri sendiri, kerja, dan orang lain pada masa yang sama.</p></div>
+          <div class="three-up"><article class="stance passive"><h2>Pasif</h2><p>“Saya rasa saya boleh cuba…”</p><small>Keperluan anda tidak jelas.</small></article><article class="stance assertive"><h2>Asertif</h2><p>“Saya faham. Ini kesannya pada tugasan saya.”</p><small>Nyatakan realiti dan beri pilihan.</small></article><article class="stance aggressive"><h2>Agresif</h2><p>“Itu bukan kerja saya.”</p><small>Hubungan boleh terjejas.</small></article></div>
+          <article class="content-card wide"><p class="card-kicker">FORMULA MUDAH</p><h2>Faham - Realiti - Pilihan - Persetujuan</h2><div class="formula"><span><b>1</b> “Saya faham ini penting.”</span><span><b>2</b> “Saya sedang siapkan tugasan A.”</span><span><b>3</b> “Kita boleh kecilkan skop atau tambah bantuan.”</span><span><b>4</b> “Pilihan mana yang kita setuju?”</span></div></article>
+          <article class="scenario"><p class="card-kicker">PILIH RESPONS</p><h2>Anda diminta siapkan tugasan baru malam ini, tetapi laporan anda perlu dihantar esok.</h2><div class="choice-row"><button data-choice="passive">“Baik, saya cuba buat semua.”</button><button data-choice="aggressive">“Tak boleh, itu tak adil.”</button><button data-choice="assertive">“Saya boleh bantu. Untuk jaga laporan esok, boleh kita pilih tugasan mana yang perlu didahulukan?”</button></div><p id="choice-feedback" class="feedback" aria-live="polite"></p></article>
+          <button class="complete-button" data-complete="module-2">✓ Saya boleh cuba respons asertif</button>
+        </section>
+
+        <section id="module-3" class="view">
+          <div class="module-banner blue-bg"><p class="eyebrow">MODUL 03</p><h1>Keyakinan datang daripada persediaan yang ringkas.</h1><p>Pitch yang baik bukan cerita panjang. Ia membuat orang mahu tahu lebih lanjut.</p></div>
+          <div class="pitch-layout"><article class="content-card"><p class="card-kicker">PITCH 90 SAAT</p><h2>Ikut 4 bahagian</h2><ol class="pitch-list"><li><b>Siapa</b> - Nama dan konteks anda</li><li><b>Nilai</b> - Masalah yang anda boleh bantu selesaikan</li><li><b>Bukti</b> - Projek, kemahiran, atau pengalaman</li><li><b>Permintaan</b> - Apakah langkah seterusnya?</li></ol></article><article class="presence-card"><p class="card-kicker">PRESENCE</p><h2>3 perkara yang orang nampak</h2><ul><li>Postur tegak dan tenang</li><li>Pandang pendengar, bukan lantai</li><li>Berhenti seketika, jangan isi dengan “err…”</li></ul></article></div>
+          <article class="quiz"><p class="card-kicker">SEMAK PEMAHAMAN</p><h2>Apakah tujuan elevator pitch?</h2><div class="quiz-options"><button data-quiz="wrong">Menceritakan semua perkara tentang diri anda.</button><button data-quiz="right">Membuka perbualan dan menunjukkan nilai anda.</button><button data-quiz="wrong">Menghafal skrip tanpa melihat pendengar.</button></div><p id="quiz-feedback" class="feedback" aria-live="polite"></p></article>
+          <button class="complete-button" data-complete="module-3">✓ Saya bersedia mencuba pitch pendek</button>
+        </section>
+
+        <section id="module-4" class="view">
+          <div class="module-banner gold-bg"><p class="eyebrow">MODUL 04</p><h1>Pasukan yang baik bercakap tentang masalah, bukan menyalahkan orang.</h1><p>Maklum balas yang jelas dan saluran komunikasi yang sesuai menjadikan kerja lebih lancar.</p></div>
+          <div class="content-grid"><article class="content-card"><p class="card-kicker">MAKLUM BALAS MEMBINA</p><h2>Perhatikan - Kesan - Cadangan</h2><p><strong>Perhatikan:</strong> “Dua bahagian laporan belum dihantar.”</p><p><strong>Kesan:</strong> “Pasukan tidak dapat semak sebelum tarikh akhir.”</p><p><strong>Cadangan:</strong> “Boleh kita tetapkan masa semakan bersama malam ini?”</p></article><article class="example navy-example"><p class="card-kicker">PILIH SALURAN</p><h2>Tulis, panggil, atau berbincang?</h2><ul><li><b>Mesej:</b> maklumat ringkas dan rekod</li><li><b>Panggilan:</b> perkara segera atau rumit</li><li><b>Mesyuarat:</b> keputusan pasukan atau konflik</li></ul></article></div>
+          <article class="reflection"><div><p class="card-kicker">REFLEKSI</p><h2>Bagaimana anda mahu memberi maklum balas dengan baik?</h2><p>Tulis satu ayat yang fokus pada kerja, bukan orang.</p></div><textarea id="feedback-note" placeholder="Contoh: Saya perasan..." aria-label="Ruang menulis maklum balas"></textarea><button class="primary save-note" data-note="feedback-note">Simpan nota</button></article>
+          <button class="complete-button" data-complete="module-4">✓ Saya faham cara beri maklum balas</button>
+        </section>
+
+        <section id="practice" class="view">
+          <div class="module-banner practice-bg"><p class="eyebrow">AKTIVITI FIZIKAL</p><h1>Bangun, bergerak, bercakap.</h1><p>Aktiviti ini paling baik dibuat bersama rakan atau dalam kumpulan kecil.</p></div>
+          <div class="activity-list">
+            <article class="activity-card"><span class="activity-no">01</span><div><p class="card-kicker">10 MINIT · BERPASANGAN</p><h2>60-Second Deconstruction</h2><p>Pilih satu idea daripada tugasan atau projek. Dalam 60 saat, terangkan menggunakan Point - Why - Next. Pasangan anda perlu mengulang kembali isi utama.</p><details><summary>Arahan fasilitator</summary><ol><li>Seorang bercakap selama 60 saat.</li><li>Pasangan ulang mesej utama dalam satu ayat.</li><li>Tukar peranan dan beri satu cadangan penambahbaikan.</li></ol></details></div></article>
+            <article class="activity-card"><span class="activity-no">02</span><div><p class="card-kicker">18 MINIT · KUMPULAN 3 ORANG</p><h2>Scope Creep Role-play</h2><p>Seorang menjadi pelajar/pekerja junior, seorang ketua, seorang pemerhati. Ketua meminta tugasan tambahan yang tidak realistik. Junior perlu menawarkan pilihan tanpa menjadi pasif atau kasar.</p><details><summary>Arahan fasilitator</summary><ol><li>Junior: jelaskan tugasan sedia ada dan kesannya.</li><li>Ketua: kekalkan permintaan dengan tekanan yang realistik.</li><li>Pemerhati: catat nada, pilihan, dan tindakan seterusnya.</li><li>Putar peranan selepas 6 minit.</li></ol></details></div></article>
+            <article class="activity-card"><span class="activity-no">03</span><div><p class="card-kicker">12 MINIT · KUMPULAN KECIL</p><h2>Lightning Round</h2><p>Ambil satu kad situasi: kelewatan projek, masalah pelanggan, atau hasil jualan. Anda ada 3 minit untuk bersedia dan 2 minit untuk memberi kemas kini kepada kumpulan.</p><details><summary>Arahan fasilitator</summary><ol><li>Jawab: apa berlaku, mengapa penting, apakah cadangan anda.</li><li>Rakan menilai kelajuan, kejelasan dan penggunaan filler word.</li><li>Ulang sekali lagi dengan penambahbaikan.</li></ol></details></div></article>
+            <article class="activity-card"><span class="activity-no">04</span><div><p class="card-kicker">12 MINIT · PASUKAN</p><h2>Project Post-Mortem</h2><p>Satu projek kumpulan tidak siap. Jalankan perbincangan tanpa menyalahkan sesiapa: Apa berlaku? Apa kesannya? Apa yang akan kita ubah?</p><details><summary>Arahan fasilitator</summary><ol><li>Gunakan fakta, bukan andaian.</li><li>Namakan satu kesan kepada pasukan.</li><li>Setuju pada satu tindakan dan seorang pemilik tindakan.</li></ol></details></div></article>
+          </div>
+          <button class="complete-button" data-complete="practice">✓ Saya telah pilih aktiviti untuk dicuba</button>
+        </section>
+
+        <section id="challenge" class="view">
+          <div class="challenge-panel"><p class="eyebrow">CABARAN AKHIR</p><h1>Rancang satu perbualan berani anda.</h1><p>Pilih situasi sebenar: bertanya soalan dalam kelas, memberi idea dalam mesyuarat, meminta bantuan, atau menerangkan masalah projek.</p><div class="checklist"><label><input type="checkbox" data-check="point" /> Saya tahu perkara utama yang mahu saya katakan.</label><label><input type="checkbox" data-check="why" /> Saya tahu mengapa perkara ini penting.</label><label><input type="checkbox" data-check="next" /> Saya sediakan tindakan atau soalan seterusnya.</label><label><input type="checkbox" data-check="presence" /> Saya akan bercakap perlahan, jelas dan memandang pendengar.</label></div><button class="primary" id="finish-course">Selesaikan cabaran</button><p id="finish-message" class="feedback" aria-live="polite"></p></div>
+        </section>
+      </main>
+    </div>
+    <footer>Speak Up! Stand Out! · Pembelajaran komunikasi untuk Kolej Komuniti Papar · Boleh digunakan tanpa internet</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
